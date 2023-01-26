@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+        
+        <title>Macabi</title>
+    
+</head>
+<body>
+
+
+<html>
+
+   
+
+    <body>  
+
+        <div >
+            
+            <ul class="menu" >
+                <li><a href="index.html">Home </a></li>
+                <li><a href="parte2.html">Reserva</a></li>
+                <li><a href="parte3.html">Juveniles</a></li>
+                <li><a href="parte1.html">Primera</a></li>
+            </ul>
+            
+    
+        </div>
+        
+        <div>
+            <h1 class="titulo">Inscripcion</h1>
+            <p class="subtitulo">Complete con su Informacion</p>
+            <br>
+        </div>
+
+        
+        <form>
+
+            <div class="grupo">
+                
+                <div class="campo">
+                    <label class="nombre">
+                        <strong>Nombre</strong>
+                    </label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+
+                
+                <div class="campo">
+                    <label for="apellido">
+                        <strong>Apellido</strong>
+                    </label>
+                    <input type="text" name="apellido" id="apellido" required>
+                </div>
+            </div> 
+
+            
+            <div class="campo">
+                <label for="email">
+                    <strong>Email</strong>
+                </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label><strong>En que categoria te vas a inscribir?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="primera" checked>Primera
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="reserva">Reserva
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="juveniles">Juveniles
+                </label>
+            </div>
+
+             <div class="campo">
+                <label class="genero">
+                    <strong>Genero</strong></label>
+                <select id="genero" required>
+                  
+                  <option>Masculino</option>
+                  <option>Femenino</option>
+                  <option>Otro</option>
+                </select>
+            </div>
+
+            
+
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Porque quieres sumarte? Tienes experiencia? </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            
+            <button class="boton" type="submit" onsubmit="">Enviar</button>            
+
+        </form>
+
+    </body>
+
+</html>
+
